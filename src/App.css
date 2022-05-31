@@ -1,0 +1,29 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.App{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    height: 100vh;
+    margin:auto;
+    
+}
+.dsa{
+  border-left:dashed dodgerblue 2px;
+  padding:0 10px;
+}
+.cpToday{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 200%;
+  font-weight: 550;
+  user-select: none;
+  margin: 40px;
+}
+.cpToday p{
+  cursor: pointer;
+  padding:0 10px;
+}
